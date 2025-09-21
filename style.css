@@ -21,15 +21,19 @@
     display: flex;               /* ✅ add */
     justify-content: center;     /* ✅ add */
     align-items: center;         /* ✅ add (for vertical center, optional) */
-    padding: 50px 0;             /* ✅ adjust padding */
+    padding: 50px 0;           /* ✅ adjust padding */
 }
 
 .section-title1 {
     text-align: center;
     margin-bottom: 50px;
     justify-content: center;
+    padding: 0px 8px;
 }
 
+.section-title1 p{
+    padding: 0px 8px;
+}
 .section-title1 h2 {
     font-size: 2.5rem;
     color: var(--secondary-color);
@@ -44,7 +48,7 @@
 
 .courses-container1 {
     max-width: 600px;            /* ✅ add */
-    width: 50%;                 /* ✅ keep responsive */
+    padding: 0px 22px;                /* ✅ keep responsive */
     margin: 0 auto;              /* ✅ center horizontally */
     display: flex;               /* ✅ change from grid to flex */
     flex-direction: column;      /* ✅ stack items vertically */
